@@ -23,7 +23,7 @@ while x<=240:
     print(Fore.WHITE)
 
     #set login information
-    ipAddress="10.25.0."+str(x)
+    ipAddress="192.168.1."+str(x)
     switch_local = {
     'device_type':'hp_procurve',
     'ip':ipAddress,
